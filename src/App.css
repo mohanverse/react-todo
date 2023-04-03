@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background: url("https://media.istockphoto.com/id/533577883/photo/sunbeams-breaking-through-pine-tree-forest-at-sunrise.jpg?s=612x612&w=0&k=20&c=8n0s8SR1OQ97ncpFbd08Nfa0QzNYFPittaRIvLVcgWE=") no-repeat center  center/cover;
+    background-color: darkslateblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#container{
+    border-radius: 20px;
+    padding: 20px 30px;
+    background-color: #03203C;
+    color: white;
+
+}
+#inputData{
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: solid 2px white;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+#addBtntodo{
+    margin-left:10px;
+    padding: 15px 25px;
+    border-radius: 40px;
+    font-size: 1rem;
+    border: solid 2px white;
+    color: black;
+}
+#alldeleateBtn{
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    border: solid 2px white;
+    color: black;
+    margin-top: 30px;
+    margin-left: 30%;
+
+}
+
+#addBtn{
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-size: 1rem;
+    border: solid 2px white;
+    color: black;
+
+}
+
+#todoText{
+    font-size:4rem;
+    text-align: center;
+}
+
+#paraText{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size:2rem;
+    text-align: center;
+    color: white;
+
+}
+#storeData{
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 1rem;
+    border: solid 2px white;
+    color: white;
+}
+
+#storeDatalist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    margin-top: 10px;
+}
